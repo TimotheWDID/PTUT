@@ -42,14 +42,14 @@ function proposerpage() {
 
 
 function procovoiturage() {
-    document.location.href="procovoiturage.html"
+    document.location.href="../procovoiturage.html"
 }
 function procours() {
-    document.location.href="procours.html"
+    document.location.href="../procours.html"
 }
 function demcovoiturage() {
-    document.location.href="demcovoiturage.html"
+    document.location.href="../demcovoiturage.html"
 }
 function demcours() {
-    document.location.href="demcours.html"
+    document.location.href="../demcours.html"
 }
