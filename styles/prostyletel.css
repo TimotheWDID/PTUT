@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(158, 77, 77, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
