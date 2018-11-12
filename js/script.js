@@ -22,7 +22,7 @@ function dem() {
     
 }
 function demanderpage() {
-    document.location.href="demander.html"
+    document.location.href="demander/demander.html"
 }
 
 function pro() {
@@ -36,7 +36,7 @@ function pro() {
     
 }
 function proposerpage() {
-    document.location.href="proposer.html"
+    document.location.href="proposer/proposer.html"
 }
 
 
