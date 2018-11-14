@@ -22,7 +22,7 @@ function dem() {
     
 }
 function demanderpage() {
-    document.location.href="demander.html"
+    document.location.href="demander.php"
 }
 
 function pro() {
@@ -36,20 +36,20 @@ function pro() {
     
 }
 function proposerpage() {
-    document.location.href="proposer.html"
+    document.location.href="proposer.php"
 }
 
 
 
 function procovoiturage() {
-    document.location.href="procovoiturage.html"
+    document.location.href="procovoiturage.php"
 }
 function procours() {
-    document.location.href="procours.html"
+    document.location.href="procours.php"
 }
 function demcovoiturage() {
-    document.location.href="demcovoiturage.html"
+    document.location.href="demcovoiturage.php"
 }
 function demcours() {
-    document.location.href="demcours.html"
+    document.location.href="demcours.php"
 }

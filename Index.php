@@ -47,7 +47,6 @@ if (isset($_POST['ok']) && !empty($_POST['email']) && !empty($_POST['mdp'])) {
 
 ?>
         <div class="pp">
-            
             <div id="dem" onclick="dem()">
             </div>
             <div id="pro" onclick="pro()">
@@ -60,7 +59,10 @@ if (isset($_POST['ok']) && !empty($_POST['email']) && !empty($_POST['mdp'])) {
                     <input type="password" name="mdp" id="mdp"> <br>
                     <input type="submit" value="ok" name="ok">
                 </form>
-                    
+                <?php if (!$auth && isset($_POST['ok'])) {
+                    echo "Mot de passe ou identifiant invalide";
+                }
+                ?>    
             </div>
         </div>
         <?php
@@ -71,7 +73,7 @@ if (isset($_POST['ok']) && !empty($_POST['email']) && !empty($_POST['mdp'])) {
                     session_start ();
                     $_SESSION['nom'] = $login; // déclaration variable de session --nom--
                     $_SESSION['mdp'] = $pass; // déclaration variable de session --mdp--
-                    echo "<script> dempro(); </script>";
+                    header('Location: dempro.php'); 
                     
                 }
         ?>
