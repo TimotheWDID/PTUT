@@ -11,6 +11,12 @@
 		</style>
 	</head>
 	<body>
+        <!-- TEST DE CONNEXION -->
+			<?php 
+			include ('testconnect.php');
+			testconnect();
+			?>
+		<!-- FIN TEST CONNEXION -->
         <div class="pp">
             
             <div id="pro">

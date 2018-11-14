@@ -4,14 +4,20 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
-        <link rel="stylesheet" href="styles/prostyletel.css">
+        <link rel="stylesheet" href="styles/demstyletel.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<style>
 			
 		</style>
 	</head>
 	<body>
-		<h1>Proposer de l'aide pour les cours</h1>
+		<!-- TEST DE CONNEXION -->
+		<?php 
+			include ('testconnect.php');
+			testconnect();
+			?>
+		<!-- FIN TEST CONNEXION -->
+		<h1>Demander de l'aide pour le covoiturage</h1>
 		
 		<script src="js/script.js"></script>
 		<script>

@@ -11,7 +11,13 @@
 		</style>
 	</head>
 	<body>
-		<h1>Demander de l'aide pour le covoiturage</h1>
+		<!-- TEST DE CONNEXION -->
+			<?php 
+			include ('testconnect.php');
+			testconnect();
+			?>
+		<!-- FIN TEST CONNEXION -->
+		<h1>Demander de l'aide pour les cours</h1>
 		
 		<script src="js/script.js"></script>
 		<script>

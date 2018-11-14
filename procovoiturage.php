@@ -11,6 +11,12 @@
 		</style>
 	</head>
 	<body>
+		<!-- TEST DE CONNEXION -->
+		<?php 
+			include ('testconnect.php');
+			testconnect();
+			?>
+		<!-- FIN TEST CONNEXION -->
 		<h1>Proposer de l'aide pour le covoiturage</h1>
 		
 		<script src="js/script.js"></script>
