@@ -13,11 +13,15 @@
 	<body>
     <script src="js/script.js"></script>
 <?php
+//SUPPRIME SESSION
 session_start ();
 
 session_unset ();
 
 session_destroy ();
+//############################################################################
+//################################CONNEXION###################################
+//############################################################################
 $auth = false; // On part du principe que l'utilisateur n'est pas authentifié
 if (isset($_POST['ok']) && !empty($_POST['email']) && !empty($_POST['mdp'])) {
     $login = $_POST['email'];
@@ -60,12 +64,13 @@ if (isset($_POST['ok']) && !empty($_POST['email']) && !empty($_POST['mdp'])) {
             </div>
         </div>
         <?php
+        //REDIRECTION + VARIABLE DE SESSION
             if ( ! $auth ) {
                 }
                 else {
                     session_start ();
-                    $_SESSION['nom'] = $login;
-                    $_SESSION['mdp'] = $pass;
+                    $_SESSION['nom'] = $login; // déclaration variable de session --nom--
+                    $_SESSION['mdp'] = $pass; // déclaration variable de session --mdp--
                     echo "<script> dempro(); </script>";
                     
                 }
