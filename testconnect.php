@@ -7,3 +7,11 @@
     }
         
         ?>
+
+
+        <!-- TEST DE CONNEXION -->
+		<?php 
+			// include ('testconnect.php');
+			// testconnect();
+			?>
+		<!-- FIN TEST CONNEXION -->
